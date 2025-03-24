@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
-const aumentaFonteBotao = document.getElementById('aumentar-fonte');
-const diminuaFonteBotao = document.getElementById('aumentar-fonte');
+const aumentaFonteBotao = document.getElementById('botao-acessibilidade');
+const diminuaFonteBotao = document.getElementById('opcoes-acessibilidade');
 
  botaoDeAcessibilidade.addEventListener('click', function){
     botaoDeAcessibilidade.classList.toggle('rotacao-botao');
