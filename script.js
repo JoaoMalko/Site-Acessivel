@@ -4,8 +4,8 @@ const diminuaFonteBotao = document.getElementById('aumentar-fonte');
 
  botaoDeAcessibilidade.addEventListener('click', function){
     botaoDeAcessibilidade.classList.toggle('rotacao-botao');
-    
-
+    botaoDeAcessibilidade.classList.toggle('apresenta-lista');
+ })
 
 
 let tamanhoAtualFonte = 1;
