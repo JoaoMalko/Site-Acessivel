@@ -3,10 +3,11 @@ const aumentaFonteBotao = document.getElementById('aumentar-fonte');
 const diminuaFonteBotao = document.getElementById('aumentar-fonte');
 
  botaoDeAcessibilidade.addEventListener('click', function){
+    botaoDeAcessibilidade.classList.toggle('rotacao-botao');
     
 
 
-    
+
 let tamanhoAtualFonte = 1;
 aumentaFonteBotao.addEventListener('click',function(){
         tamanhoAtualFonte += 0.1;
