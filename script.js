@@ -7,7 +7,8 @@ const diminuaFonteBotao = document.getElementById('aumentar-fonte');
     botaoDeAcessibilidade.classList.toggle('apresenta-lista');
  })
 
-    const aumentaFonteBotao = document.getElementById('aumenta-fonte');
+    const aumentaFonteBotao = document.getElementById('aumentar-fonte');
+    const diminuaFonteBotao = document.getElementById('diminuir-fonte');
 
 
 let tamanhoAtualFonte = 1;
@@ -17,8 +18,9 @@ aumentaFonteBotao.addEventListener('click',function(){
 
     });
 
-    diminuaFonteBotao.addEventListener('click',function(){
+    diminuiFonteBotao.addEventListener('click',function(){
         tamanhoAtualFonte -= 0.1;
         document.boby.style.fontSize = '${tamanhoAtualFonte}ren';
 });
+
 });
