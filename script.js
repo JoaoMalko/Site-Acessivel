@@ -14,13 +14,13 @@ const diminuaFonteBotao = document.getElementById('aumentar-fonte');
 let tamanhoAtualFonte = 1;
 aumentaFonteBotao.addEventListener('click',function(){
         tamanhoAtualFonte += 0.1;
-        document.boby.style.fontSize = '${tamanhoAtualFonte}ren';
+        document.boby.style.fontSize = `${tamanhoAtualFonte}ren`;
 
     });
 
     diminuiFonteBotao.addEventListener('click',function(){
         tamanhoAtualFonte -= 0.1;
-        document.boby.style.fontSize = '${tamanhoAtualFonte}ren';
+        document.boby.style.fontSize = `${tamanhoAtualFonte}ren`;
 });
 
 });
