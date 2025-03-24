@@ -7,6 +7,8 @@ const diminuaFonteBotao = document.getElementById('aumentar-fonte');
     botaoDeAcessibilidade.classList.toggle('apresenta-lista');
  })
 
+    const aumentaFonteBotao = document.getElementById('aumenta-fonte');
+
 
 let tamanhoAtualFonte = 1;
 aumentaFonteBotao.addEventListener('click',function(){
