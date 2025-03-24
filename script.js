@@ -21,6 +21,6 @@ aumentaFonteBotao.addEventListener('click',function(){
     diminuiFonteBotao.addEventListener('click',function(){
         tamanhoAtualFonte -= 0.1;
         document.boby.style.fontSize = `${tamanhoAtualFonte}ren`;
-});
+      });
 
 });
